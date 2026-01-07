@@ -8,6 +8,9 @@
 }
 header {
   background-color: #fff8f3;
+  background: url(./assets/images/developer.png), url(./assets/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
 }
 nav {
   width: 71%;
@@ -56,4 +59,72 @@ span {
     transition: all;
     transition-duration: 0.3s;
   }
+}
+
+#banner {
+  margin: 46px 38px 0px 207px;
+  display: flex;
+}
+#banner h2 {
+  margin-top: 185px;
+  font-size: 45px;
+  font-weight: 400;
+  color: #474747;
+}
+.banner_content h1 {
+  margin-top: 5px;
+  font-size: 65px;
+  font-weight: 700;
+  color: #0d0d0d;
+}
+.banner_content p {
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #757575;
+  margin-bottom: 30px;
+}
+.btn_1 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  padding: 18px 36px;
+  background-color: #fd6e0a;
+  border-radius: 6px;
+  border: 1.5px solid transparent;
+  position: relative;
+  margin-right: 30px;
+  &:hover {
+    background-color: white;
+    color: #fd6e0a;
+    border: 1.5px solid #fd6e0a;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+  }
+}
+.btn_2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  padding: 19px 36px;
+  background-color: #fd6e0a;
+  border-radius: 6px;
+  border: 1.5px solid transparent;
+  &:hover {
+    background-color: white;
+    color: #fd6e0a;
+    border: 1.5px solid #fd6e0a;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+  }
+}
+.d_icon {
+  visibility: hidden;
+}
+.p_icon {
+  visibility: hidden;
 }

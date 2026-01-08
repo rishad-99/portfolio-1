@@ -252,6 +252,9 @@ span {
   border-radius: 5px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+.service_card p {
+  color: #474747;
+}
 .service_card img {
   padding-bottom: 30px;
 }

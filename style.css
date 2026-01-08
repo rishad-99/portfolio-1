@@ -11,7 +11,7 @@ header {
   background: url(./assets/images/developer.png),
     url(./assets/images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: top left, right bottom;
+  background-position: 23px 38px, right bottom;
 }
 nav {
   width: 71%;

@@ -11,8 +11,9 @@ header {
   background: url(./assets/images/developer.png),
     url(./assets/images/header_bg.png);
   background-repeat: no-repeat;
-  background-position: 23px 38px, right bottom;
+  background-position: 23px 38px, 630px 321px;
 }
+
 nav {
   width: 71%;
   max-width: 1140px;
@@ -162,12 +163,7 @@ span {
     transition-duration: 0.3s;
   }
 }
-.d_icon {
-  visibility: hidden;
-}
-.p_icon {
-  visibility: hidden;
-}
+
 #about {
   padding-top: 130px;
 }
